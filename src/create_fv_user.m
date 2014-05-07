@@ -48,7 +48,7 @@
 #import <Admin/Authenticator.h>
 #import <Admin/DSAuthenticator.h>
 #else
-#import <SystemAdministration/SystemAdministration.h> // private header
+#import "SystemAdministration.h" // private header
 #endif
 
 static int do_create_fv_user(const char *userShortName, const char *userFullName, const char *kcpassword);
