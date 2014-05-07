@@ -4,7 +4,7 @@
 
 #import "Authority.h"
 
-#import <Security/SecAssessment.h>
+#import "SecAssessment.h"
 
 @implementation Authority
 

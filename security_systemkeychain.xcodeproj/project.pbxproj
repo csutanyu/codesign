@@ -324,6 +324,7 @@
 		22CC296419199C1C003F661D /* SecBasePriv.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SecBasePriv.h; sourceTree = "<group>"; };
 		22CC296519199C1C003F661D /* SecKeychainPriv.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SecKeychainPriv.h; sourceTree = "<group>"; };
 		22CC296619199C1C003F661D /* SecRequirementPriv.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SecRequirementPriv.h; sourceTree = "<group>"; };
+		22E9D234191ABC4F00714BA1 /* SecAssessment.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecAssessment.h; sourceTree = "<group>"; };
 		4CA1FEB6052A3C6D00F22E42 /* systemkeychain */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; path = systemkeychain; sourceTree = BUILT_PRODUCTS_DIR; };
 		4E670EA40BFCCD6E00F573A6 /* tokenadmin.8 */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = text; path = tokenadmin.8; sourceTree = "<group>"; };
 		52558D320B274C4400CD7E39 /* tokenadmin */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = tokenadmin; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -510,6 +511,7 @@
 		22CC296219199C1C003F661D /* missing headers */ = {
 			isa = PBXGroup;
 			children = (
+				22E9D234191ABC4F00714BA1 /* SecAssessment.h */,
 				2269AD471919AAC20092C618 /* superblob.h */,
 				2269AD461919AA9A0092C618 /* requirement.h */,
 				2269AD451919AA7E0092C618 /* reqreader.h */,
@@ -947,8 +949,7 @@
 		2269AD611919AE330092C618 /* libsecurity_utilities.a */ = {
 			isa = PBXReferenceProxy;
 			fileType = archive.ar;
-			name = libsecurity_utilities.a;
-			path = lib.a;
+			path = libsecurity_utilities.a;
 			remoteRef = 2269AD601919AE330092C618 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};

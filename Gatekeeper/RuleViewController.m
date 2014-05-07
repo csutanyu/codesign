@@ -3,7 +3,7 @@
 //
 
 #import "RuleViewController.h"
-#import <Security/SecAssessment.h>
+#import "SecAssessment.h"
 
 @implementation RuleViewController
 

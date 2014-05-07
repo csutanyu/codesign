@@ -5,7 +5,7 @@
 #import "GKAppDelegate.h"
 #import "Authority.h"
 
-#import <Security/SecAssessment.h>
+#import "SecAssessment.h"
 #import <notify.h>
 #import <CoreServices/CoreServices.h>
 
