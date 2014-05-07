@@ -28,7 +28,7 @@
 #define _H_SPCTL
 
 #include <Security/Security.h>
-#include <Security/SecAssessment.h>
+#include "SecAssessment.h"
 
 
 //

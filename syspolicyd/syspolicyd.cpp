@@ -21,7 +21,7 @@
  * @APPLE_LICENSE_HEADER_END@
  */
 #include <Security/Security.h>
-#include <Security/SecAssessment.h>
+#include "SecAssessment.h"
 #include <getopt.h>
 #include <syslog.h>
 #include <libgen.h>

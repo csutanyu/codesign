@@ -41,7 +41,7 @@
 #import <Foundation/Foundation.h>
 
 #include <CoreFoundation/CFRunLoop.h>
-#include <Security/SecBasePriv.h>
+#include "SecBasePriv.h"
 #include <security_asn1/secerr.h>
 
 /* Maximum length of an input line in interactive mode. */

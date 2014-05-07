@@ -26,17 +26,18 @@
 /* End PBXAggregateTarget section */
 
 /* Begin PBXBuildFile section */
-		1865FD1B1472746900FD79DF /* libsecurity_utilities.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1865FD1A1472746900FD79DF /* libsecurity_utilities.a */; };
-		1865FD1C147274A700FD79DF /* libsecurity_utilities.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1865FD1A1472746900FD79DF /* libsecurity_utilities.a */; };
-		1865FD1E147274B800FD79DF /* libsecurity_cdsa_utilities.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1865FD1D147274B800FD79DF /* libsecurity_cdsa_utilities.a */; };
 		1865FD211472760600FD79DF /* libsecurity_utilities.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1865FD1A1472746900FD79DF /* libsecurity_utilities.a */; };
-		1865FD221472762600FD79DF /* libsecurity_utilities.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1865FD1A1472746900FD79DF /* libsecurity_utilities.a */; };
 		18B9658E1472FD2F005A4D2E /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C21CFC770A250F95006CD5B1 /* Security.framework */; };
-		18B9658F1472FD4C005A4D2E /* libsecurity_cdsa_utilities.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1865FD1D147274B800FD79DF /* libsecurity_cdsa_utilities.a */; };
 		18B965911472FD62005A4D2E /* libsecurity_cdsa_client.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 18B965901472FD62005A4D2E /* libsecurity_cdsa_client.a */; };
 		18B965931472FD77005A4D2E /* libsecurityd_client.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 18B965921472FD77005A4D2E /* libsecurityd_client.a */; };
 		2269AD641919AE410092C618 /* libsecurity_utilities.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2269AD611919AE330092C618 /* libsecurity_utilities.a */; };
 		2269ADE81919B5380092C618 /* libsecurity_cdsa_utilities.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2269ADE31919B52C0092C618 /* libsecurity_cdsa_utilities.a */; };
+		22E9D23A191ABD9E00714BA1 /* libsecurity_cdsa_utilities.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2269ADE31919B52C0092C618 /* libsecurity_cdsa_utilities.a */; };
+		22E9D23B191ABD9E00714BA1 /* libsecurity_utilities.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2269AD611919AE330092C618 /* libsecurity_utilities.a */; };
+		22E9D23C191ABDAA00714BA1 /* libsecurity_utilities.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2269AD611919AE330092C618 /* libsecurity_utilities.a */; };
+		22E9D23F191ABDE700714BA1 /* libsecurity_utilities.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2269AD611919AE330092C618 /* libsecurity_utilities.a */; };
+		22E9D242191ABE0300714BA1 /* libsecurity_utilities.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2269AD611919AE330092C618 /* libsecurity_utilities.a */; };
+		22E9D245191ABE0C00714BA1 /* libsecurity_cdsa_utilities.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2269ADE31919B52C0092C618 /* libsecurity_cdsa_utilities.a */; };
 		4E670EA60BFCCDBF00F573A6 /* tokenadmin.8 in CopyFiles */ = {isa = PBXBuildFile; fileRef = 4E670EA40BFCCD6E00F573A6 /* tokenadmin.8 */; };
 		522F1F130B6A96EE006F700F /* TokenIDHelper.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 52558DDF0B27827A00CD7E39 /* TokenIDHelper.cpp */; };
 		52558D440B2753D300CD7E39 /* tokenadmin.m in Sources */ = {isa = PBXBuildFile; fileRef = 52558D420B2753D300CD7E39 /* tokenadmin.m */; };
@@ -55,7 +56,6 @@
 		C23B128F14BB85DD00A1ED50 /* spctl.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C20CFFB814685F11004C8E27 /* spctl.cpp */; };
 		C23B129014BB861100A1ED50 /* CoreFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C264033E0589582F00E95F9A /* CoreFoundation.framework */; };
 		C23B129114BB861300A1ED50 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C21CFC770A250F95006CD5B1 /* Security.framework */; };
-		C23B129214BB861800A1ED50 /* libsecurity_utilities.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1865FD1A1472746900FD79DF /* libsecurity_utilities.a */; };
 		C23B129514BB86D300A1ED50 /* cs_utils.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C26159150A9F619800771C4D /* cs_utils.cpp */; };
 		C26158B40AAF497C00877DF4 /* csreq.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = C26158B30AAF497C00877DF4 /* csreq.1 */; };
 		C26159100A9F60D400771C4D /* cs_sign.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C261590F0A9F60D400771C4D /* cs_sign.cpp */; };
@@ -122,6 +122,48 @@
 			remoteInfo = Schemas;
 		};
 		2269ADE61919B5350092C618 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2269ADDC1919B52C0092C618 /* libsecurity_cdsa_utilities.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 4CA2A5390523D32800978A7B;
+			remoteInfo = libsecurity_cdsa_utilities;
+		};
+		22E9D236191ABD9600714BA1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2269ADDC1919B52C0092C618 /* libsecurity_cdsa_utilities.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 4CA2A5390523D32800978A7B;
+			remoteInfo = libsecurity_cdsa_utilities;
+		};
+		22E9D238191ABD9900714BA1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2269AD5B1919AE330092C618 /* libsecurity_utilities.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 4CA2A5390523D32800978A7B;
+			remoteInfo = libsecurity_utilities;
+		};
+		22E9D23D191ABDAD00714BA1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2269AD5B1919AE330092C618 /* libsecurity_utilities.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 4CA2A5390523D32800978A7B;
+			remoteInfo = libsecurity_utilities;
+		};
+		22E9D240191ABDEB00714BA1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2269AD5B1919AE330092C618 /* libsecurity_utilities.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 4CA2A5390523D32800978A7B;
+			remoteInfo = libsecurity_utilities;
+		};
+		22E9D243191ABE0700714BA1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2269AD5B1919AE330092C618 /* libsecurity_utilities.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 4CA2A5390523D32800978A7B;
+			remoteInfo = libsecurity_utilities;
+		};
+		22E9D246191ABE0F00714BA1 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 2269ADDC1919B52C0092C618 /* libsecurity_cdsa_utilities.xcodeproj */;
 			proxyType = 1;
@@ -401,11 +443,11 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				22E9D245191ABE0C00714BA1 /* libsecurity_cdsa_utilities.a in Frameworks */,
+				22E9D242191ABE0300714BA1 /* libsecurity_utilities.a in Frameworks */,
 				18B965931472FD77005A4D2E /* libsecurityd_client.a in Frameworks */,
 				18B965911472FD62005A4D2E /* libsecurity_cdsa_client.a in Frameworks */,
-				18B9658F1472FD4C005A4D2E /* libsecurity_cdsa_utilities.a in Frameworks */,
 				18B9658E1472FD2F005A4D2E /* Security.framework in Frameworks */,
-				1865FD1B1472746900FD79DF /* libsecurity_utilities.a in Frameworks */,
 				C264033F0589582F00E95F9A /* CoreFoundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -414,12 +456,12 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				22E9D23C191ABDAA00714BA1 /* libsecurity_utilities.a in Frameworks */,
 				52558EAE0B28D61C00CD7E39 /* CoreFoundation.framework in Frameworks */,
 				52558EA90B28D5AE00CD7E39 /* Security.framework in Frameworks */,
 				52558DDE0B27821D00CD7E39 /* DiskImages.framework in Frameworks */,
 				52558EFA0B28D66F00CD7E39 /* Foundation.framework in Frameworks */,
 				52558EFD0B28D6FD00CD7E39 /* SecurityFoundation.framework in Frameworks */,
-				1865FD221472762600FD79DF /* libsecurity_utilities.a in Frameworks */,
 				BE6C62A015DDD03F0027BB12 /* SystemAdministration.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -439,9 +481,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				22E9D23F191ABDE700714BA1 /* libsecurity_utilities.a in Frameworks */,
 				C23B129014BB861100A1ED50 /* CoreFoundation.framework in Frameworks */,
 				C23B129114BB861300A1ED50 /* Security.framework in Frameworks */,
-				C23B129214BB861800A1ED50 /* libsecurity_utilities.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -459,10 +501,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				22E9D23A191ABD9E00714BA1 /* libsecurity_cdsa_utilities.a in Frameworks */,
+				22E9D23B191ABD9E00714BA1 /* libsecurity_utilities.a in Frameworks */,
 				C297EF520AAE8D9400084FFC /* CoreFoundation.framework in Frameworks */,
 				C297EF530AAE8D9400084FFC /* Security.framework in Frameworks */,
-				1865FD1C147274A700FD79DF /* libsecurity_utilities.a in Frameworks */,
-				1865FD1E147274B800FD79DF /* libsecurity_cdsa_utilities.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -787,6 +829,8 @@
 			buildRules = (
 			);
 			dependencies = (
+				22E9D247191ABE0F00714BA1 /* PBXTargetDependency */,
+				22E9D244191ABE0700714BA1 /* PBXTargetDependency */,
 			);
 			name = systemkeychain;
 			productInstallPath = /usr/sbin;
@@ -805,6 +849,7 @@
 			buildRules = (
 			);
 			dependencies = (
+				22E9D23E191ABDAD00714BA1 /* PBXTargetDependency */,
 			);
 			name = tokenadmin;
 			productName = tokenadmin;
@@ -841,6 +886,7 @@
 			buildRules = (
 			);
 			dependencies = (
+				22E9D241191ABDEB00714BA1 /* PBXTargetDependency */,
 			);
 			name = spctl;
 			productName = spctl;
@@ -876,6 +922,8 @@
 			buildRules = (
 			);
 			dependencies = (
+				22E9D239191ABD9900714BA1 /* PBXTargetDependency */,
+				22E9D237191ABD9600714BA1 /* PBXTargetDependency */,
 			);
 			name = csreq;
 			productName = csreq;
@@ -1066,6 +1114,36 @@
 			isa = PBXTargetDependency;
 			name = libsecurity_cdsa_utilities;
 			targetProxy = 2269ADE61919B5350092C618 /* PBXContainerItemProxy */;
+		};
+		22E9D237191ABD9600714BA1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = libsecurity_cdsa_utilities;
+			targetProxy = 22E9D236191ABD9600714BA1 /* PBXContainerItemProxy */;
+		};
+		22E9D239191ABD9900714BA1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = libsecurity_utilities;
+			targetProxy = 22E9D238191ABD9900714BA1 /* PBXContainerItemProxy */;
+		};
+		22E9D23E191ABDAD00714BA1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = libsecurity_utilities;
+			targetProxy = 22E9D23D191ABDAD00714BA1 /* PBXContainerItemProxy */;
+		};
+		22E9D241191ABDEB00714BA1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = libsecurity_utilities;
+			targetProxy = 22E9D240191ABDEB00714BA1 /* PBXContainerItemProxy */;
+		};
+		22E9D244191ABE0700714BA1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = libsecurity_utilities;
+			targetProxy = 22E9D243191ABE0700714BA1 /* PBXContainerItemProxy */;
+		};
+		22E9D247191ABE0F00714BA1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = libsecurity_cdsa_utilities;
+			targetProxy = 22E9D246191ABE0F00714BA1 /* PBXContainerItemProxy */;
 		};
 		5280E5EA0B2E278E000C5D98 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;

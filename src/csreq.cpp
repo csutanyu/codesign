@@ -26,7 +26,7 @@
 //
 #include "cs_utils.h"
 #include <Security/CodeSigning.h>
-#include <Security/SecRequirementPriv.h>
+#include "SecRequirementPriv.h"
 
 using namespace UnixPlusPlus;
 

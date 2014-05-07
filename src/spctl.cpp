@@ -26,7 +26,7 @@
 //
 #include "spctl.h"
 #include "cs_utils.h"
-#include "unix++.h>
+#include "unix++.h"
 #include <getopt.h>
 
 using namespace UnixPlusPlus;
