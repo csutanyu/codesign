@@ -19,7 +19,7 @@
 //
 // cspclient - client interface to CSSM CSPs and their operations
 //
-#include <security_cdsa_client/cspclient.h>
+#include "cspclient.h"
 
 namespace Security {
 namespace CssmClient {

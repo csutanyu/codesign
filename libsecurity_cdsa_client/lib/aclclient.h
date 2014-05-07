@@ -22,11 +22,11 @@
 #ifndef _H_CDSA_CLIENT_ACLCLIENT
 #define _H_CDSA_CLIENT_ACLCLIENT  1
 
-#include "cssmaclpod.h"
-#include "cssmacl.h"
-#include "cssmcred.h"
-#include <security_utilities/refcount.h>
-#include <security_utilities/globalizer.h>
+#include "../../libsecurity_cdsa_utilities/lib/cssmaclpod.h"
+#include "../../libsecurity_cdsa_utilities/lib/cssmacl.h"
+#include "../../libsecurity_cdsa_utilities/lib/cssmcred.h"
+#include "../../libsecurity_utilities/lib/refcount.h"
+#include "../../libsecurity_utilities/lib/globalizer.h"
 
 namespace Security {
 namespace CssmClient {

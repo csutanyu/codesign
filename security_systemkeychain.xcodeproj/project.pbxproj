@@ -31,7 +31,7 @@
 		2269ADE81919B5380092C618 /* libsecurity_cdsa_utilities.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2269ADE31919B52C0092C618 /* libsecurity_cdsa_utilities.a */; };
 		22E125BF191AE40E00E86830 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 22E125BE191AE40E00E86830 /* SystemConfiguration.framework */; };
 		22E125C0191AE50100E86830 /* SystemAdministration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BE6C629F15DDD03F0027BB12 /* SystemAdministration.framework */; };
-		22E9D23A191ABD9E00714BA1 /* libsecurity_cdsa_utilities.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2269ADE31919B52C0092C618 /* libsecurity_cdsa_utilities.a */; };
+		22E125C4191AF12900E86830 /* libsecurity_cdsa_utilities.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2269ADE31919B52C0092C618 /* libsecurity_cdsa_utilities.a */; };
 		22E9D23B191ABD9E00714BA1 /* libsecurity_utilities.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2269AD611919AE330092C618 /* libsecurity_utilities.a */; };
 		22E9D23C191ABDAA00714BA1 /* libsecurity_utilities.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2269AD611919AE330092C618 /* libsecurity_utilities.a */; };
 		22E9D23F191ABDE700714BA1 /* libsecurity_utilities.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2269AD611919AE330092C618 /* libsecurity_utilities.a */; };
@@ -567,7 +567,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				22E9D23A191ABD9E00714BA1 /* libsecurity_cdsa_utilities.a in Frameworks */,
+				22E125C4191AF12900E86830 /* libsecurity_cdsa_utilities.a in Frameworks */,
 				22E9D23B191ABD9E00714BA1 /* libsecurity_utilities.a in Frameworks */,
 				C297EF520AAE8D9400084FFC /* CoreFoundation.framework in Frameworks */,
 				C297EF530AAE8D9400084FFC /* Security.framework in Frameworks */,
