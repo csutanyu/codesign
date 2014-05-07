@@ -34,7 +34,7 @@
 #include <string.h>
 #include <unistd.h>
 #include <Security/SecKeychain.h>
-#include <SecurityFoundation/FileVaultPriv.h>
+#include "FileVaultPriv.h"
 #include <SecurityFoundation/SFAuthorization.h>
 #import <Foundation/NSString.h>
 #import <Foundation/NSDictionary.h>

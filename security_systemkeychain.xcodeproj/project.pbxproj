@@ -26,7 +26,6 @@
 /* End PBXAggregateTarget section */
 
 /* Begin PBXBuildFile section */
-		1865FD211472760600FD79DF /* libsecurity_utilities.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1865FD1A1472746900FD79DF /* libsecurity_utilities.a */; };
 		18B9658E1472FD2F005A4D2E /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C21CFC770A250F95006CD5B1 /* Security.framework */; };
 		18B965911472FD62005A4D2E /* libsecurity_cdsa_client.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 18B965901472FD62005A4D2E /* libsecurity_cdsa_client.a */; };
 		18B965931472FD77005A4D2E /* libsecurityd_client.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 18B965921472FD77005A4D2E /* libsecurityd_client.a */; };
@@ -38,6 +37,7 @@
 		22E9D23F191ABDE700714BA1 /* libsecurity_utilities.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2269AD611919AE330092C618 /* libsecurity_utilities.a */; };
 		22E9D242191ABE0300714BA1 /* libsecurity_utilities.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2269AD611919AE330092C618 /* libsecurity_utilities.a */; };
 		22E9D245191ABE0C00714BA1 /* libsecurity_cdsa_utilities.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2269ADE31919B52C0092C618 /* libsecurity_cdsa_utilities.a */; };
+		22E9D251191AC01F00714BA1 /* libsecurity_utilities.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2269AD611919AE330092C618 /* libsecurity_utilities.a */; };
 		4E670EA60BFCCDBF00F573A6 /* tokenadmin.8 in CopyFiles */ = {isa = PBXBuildFile; fileRef = 4E670EA40BFCCD6E00F573A6 /* tokenadmin.8 */; };
 		522F1F130B6A96EE006F700F /* TokenIDHelper.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 52558DDF0B27827A00CD7E39 /* TokenIDHelper.cpp */; };
 		52558D440B2753D300CD7E39 /* tokenadmin.m in Sources */ = {isa = PBXBuildFile; fileRef = 52558D420B2753D300CD7E39 /* tokenadmin.m */; };
@@ -169,6 +169,13 @@
 			proxyType = 1;
 			remoteGlobalIDString = 4CA2A5390523D32800978A7B;
 			remoteInfo = libsecurity_cdsa_utilities;
+		};
+		22E9D24F191AC01A00714BA1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2269AD5B1919AE330092C618 /* libsecurity_utilities.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 4CA2A5390523D32800978A7B;
+			remoteInfo = libsecurity_utilities;
 		};
 		5280E5E90B2E278E000C5D98 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -367,6 +374,13 @@
 		22CC296519199C1C003F661D /* SecKeychainPriv.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SecKeychainPriv.h; sourceTree = "<group>"; };
 		22CC296619199C1C003F661D /* SecRequirementPriv.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SecRequirementPriv.h; sourceTree = "<group>"; };
 		22E9D234191ABC4F00714BA1 /* SecAssessment.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecAssessment.h; sourceTree = "<group>"; };
+		22E9D248191ABED400714BA1 /* FileVaultPriv.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FileVaultPriv.h; sourceTree = "<group>"; };
+		22E9D249191ABF0E00714BA1 /* secerr.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = secerr.h; sourceTree = "<group>"; };
+		22E9D24A191ABF2B00714BA1 /* prerror.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = prerror.h; sourceTree = "<group>"; };
+		22E9D24B191ABF4500714BA1 /* prtypes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = prtypes.h; sourceTree = "<group>"; };
+		22E9D24C191ABF6200714BA1 /* prcpucfg.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = prcpucfg.h; sourceTree = "<group>"; };
+		22E9D24D191ABF7900714BA1 /* protypes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = protypes.h; sourceTree = "<group>"; };
+		22E9D24E191ABF8900714BA1 /* prerr.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = prerr.h; sourceTree = "<group>"; };
 		4CA1FEB6052A3C6D00F22E42 /* systemkeychain */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; path = systemkeychain; sourceTree = BUILT_PRODUCTS_DIR; };
 		4E670EA40BFCCD6E00F573A6 /* tokenadmin.8 */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = text; path = tokenadmin.8; sourceTree = "<group>"; };
 		52558D320B274C4400CD7E39 /* tokenadmin */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = tokenadmin; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -491,9 +505,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				22E9D251191AC01F00714BA1 /* libsecurity_utilities.a in Frameworks */,
 				C28C2FCC1436B5A600935B02 /* Security.framework in Frameworks */,
 				C28C2FCD1436B5AA00935B02 /* CoreFoundation.framework in Frameworks */,
-				1865FD211472760600FD79DF /* libsecurity_utilities.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -553,6 +567,13 @@
 		22CC296219199C1C003F661D /* missing headers */ = {
 			isa = PBXGroup;
 			children = (
+				22E9D24E191ABF8900714BA1 /* prerr.h */,
+				22E9D24D191ABF7900714BA1 /* protypes.h */,
+				22E9D24C191ABF6200714BA1 /* prcpucfg.h */,
+				22E9D24B191ABF4500714BA1 /* prtypes.h */,
+				22E9D24A191ABF2B00714BA1 /* prerror.h */,
+				22E9D249191ABF0E00714BA1 /* secerr.h */,
+				22E9D248191ABED400714BA1 /* FileVaultPriv.h */,
 				22E9D234191ABC4F00714BA1 /* SecAssessment.h */,
 				2269AD471919AAC20092C618 /* superblob.h */,
 				2269AD461919AA9A0092C618 /* requirement.h */,
@@ -905,6 +926,7 @@
 			buildRules = (
 			);
 			dependencies = (
+				22E9D250191AC01A00714BA1 /* PBXTargetDependency */,
 			);
 			name = syspolicyd;
 			productName = syspolicyd;
@@ -1144,6 +1166,11 @@
 			isa = PBXTargetDependency;
 			name = libsecurity_cdsa_utilities;
 			targetProxy = 22E9D246191ABE0F00714BA1 /* PBXContainerItemProxy */;
+		};
+		22E9D250191AC01A00714BA1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = libsecurity_utilities;
+			targetProxy = 22E9D24F191AC01A00714BA1 /* PBXContainerItemProxy */;
 		};
 		5280E5EA0B2E278E000C5D98 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
