@@ -29,8 +29,8 @@
 #include "SecKeychainPriv.h"
 #include <Security/SecCertificate.h>
 #include <Security/SecKey.h>
-#include "cfutilities.h>
-#include "errors.h>
+#include "cfutilities.h"
+#include "errors.h"
 #include <CoreServices/../Frameworks/CarbonCore.framework/Headers/MacErrors.h>
 
 static void extract_certificate_from_identity(const void *value, void *context);

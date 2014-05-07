@@ -20,7 +20,7 @@ extern "C"
 //
 typedef const void *DTException;
 
-#include "utilities_dtrace.h"
+#include "../../missing headers/utilities_dtrace.h"
 
 //
 // The debug-log macro is now unconditionally emitted as a DTrace static probe point.

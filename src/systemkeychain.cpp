@@ -19,8 +19,8 @@
 //
 // systemkeychain command - set up and manipulate system-unlocked keychains
 //
-#include <security_cdsa_client/securestorage.h>
-#include <security_cdsa_client/cryptoclient.h>
+#include "../libsecurity_cdsa_client/lib/securestorage.h"
+#include "../libsecurity_cdsa_client/lib/cryptoclient.h"
 #include "uniformrandom.h>
 #include "devrandom.h>
 #include "errors.h>
