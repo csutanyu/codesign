@@ -29,6 +29,7 @@
 		18B9658E1472FD2F005A4D2E /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C21CFC770A250F95006CD5B1 /* Security.framework */; };
 		2269AD641919AE410092C618 /* libsecurity_utilities.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2269AD611919AE330092C618 /* libsecurity_utilities.a */; };
 		2269ADE81919B5380092C618 /* libsecurity_cdsa_utilities.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2269ADE31919B52C0092C618 /* libsecurity_cdsa_utilities.a */; };
+		22E125BF191AE40E00E86830 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 22E125BE191AE40E00E86830 /* SystemConfiguration.framework */; };
 		22E9D23A191ABD9E00714BA1 /* libsecurity_cdsa_utilities.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2269ADE31919B52C0092C618 /* libsecurity_cdsa_utilities.a */; };
 		22E9D23B191ABD9E00714BA1 /* libsecurity_utilities.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2269AD611919AE330092C618 /* libsecurity_utilities.a */; };
 		22E9D23C191ABDAA00714BA1 /* libsecurity_utilities.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2269AD611919AE330092C618 /* libsecurity_utilities.a */; };
@@ -415,6 +416,8 @@
 		22CC296419199C1C003F661D /* SecBasePriv.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SecBasePriv.h; sourceTree = "<group>"; };
 		22CC296519199C1C003F661D /* SecKeychainPriv.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SecKeychainPriv.h; sourceTree = "<group>"; };
 		22CC296619199C1C003F661D /* SecRequirementPriv.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SecRequirementPriv.h; sourceTree = "<group>"; };
+		22E125BC191AE3A700E86830 /* libxpc.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libxpc.dylib; path = usr/lib/system/libxpc.dylib; sourceTree = SDKROOT; };
+		22E125BE191AE40E00E86830 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
 		22E9D234191ABC4F00714BA1 /* SecAssessment.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecAssessment.h; sourceTree = "<group>"; };
 		22E9D248191ABED400714BA1 /* FileVaultPriv.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FileVaultPriv.h; sourceTree = "<group>"; };
 		22E9D249191ABF0E00714BA1 /* secerr.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = secerr.h; sourceTree = "<group>"; };
@@ -426,7 +429,6 @@
 		22E9D252191ADBA400714BA1 /* libsecurity_cdsa_client.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = libsecurity_cdsa_client.xcodeproj; path = libsecurity_cdsa_client/libsecurity_cdsa_client.xcodeproj; sourceTree = "<group>"; };
 		22E9D25D191ADC3700714BA1 /* libsecurityd.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = libsecurityd.xcodeproj; path = libsecurityd/libsecurityd.xcodeproj; sourceTree = "<group>"; };
 		22E9D26F191ADCD900714BA1 /* std_types.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = std_types.h; sourceTree = "<group>"; };
-		22E9D270191ADCEB00714BA1 /* std_types.defs */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.mig; path = std_types.defs; sourceTree = "<group>"; };
 		4CA1FEB6052A3C6D00F22E42 /* systemkeychain */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; path = systemkeychain; sourceTree = BUILT_PRODUCTS_DIR; };
 		4E670EA40BFCCD6E00F573A6 /* tokenadmin.8 */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = text; path = tokenadmin.8; sourceTree = "<group>"; };
 		52558D320B274C4400CD7E39 /* tokenadmin */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = tokenadmin; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -551,6 +553,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				22E125BF191AE40E00E86830 /* SystemConfiguration.framework in Frameworks */,
 				22E9D251191AC01F00714BA1 /* libsecurity_utilities.a in Frameworks */,
 				C28C2FCC1436B5A600935B02 /* Security.framework in Frameworks */,
 				C28C2FCD1436B5AA00935B02 /* CoreFoundation.framework in Frameworks */,
@@ -613,7 +616,6 @@
 		22CC296219199C1C003F661D /* missing headers */ = {
 			isa = PBXGroup;
 			children = (
-				22E9D270191ADCEB00714BA1 /* std_types.defs */,
 				22E9D26F191ADCD900714BA1 /* std_types.h */,
 				22E9D24E191ABF8900714BA1 /* prerr.h */,
 				22E9D24D191ABF7900714BA1 /* protypes.h */,
@@ -779,6 +781,8 @@
 		C26403820589583400E95F9A /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				22E125BE191AE40E00E86830 /* SystemConfiguration.framework */,
+				22E125BC191AE3A700E86830 /* libxpc.dylib */,
 				C2254FDA0A25113B007D3358 /* libantlr2c++.a */,
 				18B965921472FD77005A4D2E /* libsecurityd_client.a */,
 				18B965901472FD62005A4D2E /* libsecurity_cdsa_client.a */,
@@ -1475,6 +1479,10 @@
 			baseConfigurationReference = 18A25C5614753D14004F59F8 /* debug.xcconfig */;
 			buildSettings = {
 				INSTALL_PATH = /usr/libexec/;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SDKROOT)/usr/lib/system",
+				);
 			};
 			name = Debug;
 		};
@@ -1483,6 +1491,10 @@
 			baseConfigurationReference = 18A25C5814753D14004F59F8 /* release.xcconfig */;
 			buildSettings = {
 				INSTALL_PATH = /usr/libexec/;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SDKROOT)/usr/lib/system",
+				);
 			};
 			name = Release;
 		};

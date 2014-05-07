@@ -25,8 +25,11 @@
 #include <getopt.h>
 #include <syslog.h>
 #include <libgen.h>
-#include <xpc/private.h> // who knows where this is
-#include "cfutilities.h>
+#include <xpc/xpc.h>
+
+//#include <xpc/private.h> 
+extern "C" xpc_object_t xpc_connection_copy_entitlement_value(xpc_connection_t connection, const char *entitlement);
+#include "cfutilities.h"
 
 
 static const char serviceName[] = "com.apple.security.syspolicy";
